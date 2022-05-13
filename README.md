@@ -1,6 +1,6 @@
 # pa11y-express
 
-Setup your own [pa11y](https://pa11y.org/) API endpoint via [Express](https://expressjs.com).
+Setup your own [pa11y](https://pa11y.org/) API endpoint via NodeJS/[Express](https://expressjs.com).
 
 Can be hosted as [render.com Web Service](https://render.com/docs/web-services), use following commands for setup:
 
