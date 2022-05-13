@@ -2,7 +2,7 @@
 
 Setup your own [pa11y](https://pa11y.org/) API endpoint via [Express](https://expressjs.com).
 
-Can be hosted on [render.com](https://render.com/docs/web-services), use following commands for setup:
+Can be hosted as [render.com Web Service](https://render.com/docs/web-services), use following commands for setup:
 
   * Build Command: `npm install`
   * Start Command: `node app.js`
@@ -10,6 +10,8 @@ Can be hosted on [render.com](https://render.com/docs/web-services), use followi
 Forked via https://render.com/docs/deploy-node-express-app.
 
 ## API usage
+
+⚠️ This is just a demo instance on a free render.com (with limit of hours) plan. Please setup your own API endpoint.
 
 ```
 https://pa11y-express.onrender.com/check?url=https%3A%2F%2Fwww.a11yproject.com%2F
