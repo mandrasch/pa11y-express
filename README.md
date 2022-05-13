@@ -11,7 +11,7 @@ Forked via https://render.com/docs/deploy-node-express-app.
 
 ## API usage
 
-⚠️ This is just a demo instance on a free render.com (with limit of hours) plan. Please setup your own API endpoint.
+⚠️ This is just a demo instance on a free render.com (with limit of hours) plan. Please setup your own API endpoint!
 
 ```
 https://pa11y-express.onrender.com/check?url=https%3A%2F%2Fwww.a11yproject.com%2F
@@ -20,6 +20,8 @@ https://pa11y-express.onrender.com/check?url=https%3A%2F%2Fwww.a11yproject.com%2
 Use encodeURI() in JavaScript (or [urlencoder.io](https://www.urlencoder.io/)) to generate an encoded parameter.
 
 ### Output example: 
+
+[Demo request](https://pa11y-express.onrender.com/check?url=https%3A%2F%2Fwww.a11yproject.com%2F)
 
 ```json
 {
