@@ -13,6 +13,7 @@ app.post('/', async function (req, res) {
 
   if (!req.body.url) {
     res.status(500).send('No URL submitted');
+    return;
   }
   // TODO: check if url was given
   // TODO: sanitize?
