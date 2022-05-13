@@ -5,7 +5,7 @@ Setup your own [pa11y](https://pa11y.org/) API endpoint via NodeJS/[Express](htt
 Can be hosted as [render.com Web Service](https://render.com/docs/web-services), use following commands for setup:
 
   * Build Command: `npm install`
-  * Start Command: `node app.js`
+  * Start Command: `node api/index.js`
 
 Forked via https://render.com/docs/deploy-node-express-app.
 
