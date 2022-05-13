@@ -7,7 +7,7 @@ Can be hosted as [render.com Web Service](https://render.com/docs/web-services),
   * Build Command: `npm install`
   * Start Command: `node app.js`
 
-Forked via https://render.com/docs/deploy-node-express-app.
+See https://render.com/docs/deploy-node-express-app for more information.
 
 ## API usage
 
