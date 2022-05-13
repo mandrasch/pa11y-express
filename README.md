@@ -11,7 +11,13 @@ Forked via https://render.com/docs/deploy-node-express-app.
 
 ## API usage
 
-⚠️ This is just a demo instance on a free render.com (with limit of hours) plan. Please setup your own API endpoint!
+```
+GET https://<render-service-name>.render.com/check?url=<url-for-check>
+```
+
+## Demo
+
+⚠️ This is just a demo instance on a free render.com (with limit of hours) plan. Please setup your own API endpoint! ⚠️
 
 ```
 https://pa11y-express.onrender.com/check?url=https%3A%2F%2Fwww.a11yproject.com%2F
