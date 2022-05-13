@@ -25,7 +25,7 @@ https://pa11y-express.onrender.com/check?url=https%3A%2F%2Fwww.w3.org%2FWAI%2Fde
 
 Use encodeURI() in JavaScript (or [urlencoder.io](https://www.urlencoder.io/)) to generate an encoded parameter.
 
-### Output example: 
+### Response example (JSON)
 
 [Demo request](https://pa11y-express.onrender.com/check?url=https%3A%2F%2Fwww.a11yproject.com%2F)
 
