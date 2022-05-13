@@ -17,7 +17,7 @@ GET https://<render-service-name>.render.com/check?url=<url-for-check>
 
 ## Demo
 
-⚠️ This is just a demo instance on a free render.com (with limit of hours) plan. Please setup your own API endpoint! ⚠️
+⚠️ This is just a demo instance on a free plan. Please setup your own API endpoint! ⚠️
 
 ```
 https://pa11y-express.onrender.com/check?url=https%3A%2F%2Fwww.w3.org%2FWAI%2Fdemos%2Fbad%2Fbefore%2Fhome.html
