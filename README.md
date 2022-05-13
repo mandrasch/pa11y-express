@@ -12,7 +12,7 @@ Forked via https://render.com/docs/deploy-node-express-app.
 ## API usage
 
 ```
-GET https://<render-service-name>.render.com/api/check?url=<url-for-check>
+GET https://<render-service-name>.render.com/check?url=<url-for-check>
 ```
 
 ## Demo
@@ -20,14 +20,14 @@ GET https://<render-service-name>.render.com/api/check?url=<url-for-check>
 ⚠️ This is just a demo instance on a free plan. Please setup your own API endpoint! ⚠️
 
 ```
-https://pa11y-express.onrender.com/api/check?url=https%3A%2F%2Fwww.w3.org%2FWAI%2Fdemos%2Fbad%2Fbefore%2Fhome.html
+https://pa11y-express.onrender.com/check?url=https%3A%2F%2Fwww.w3.org%2FWAI%2Fdemos%2Fbad%2Fbefore%2Fhome.html
 ```
 
 Use encodeURI() in JavaScript (or [urlencoder.io](https://www.urlencoder.io/)) to generate an encoded parameter.
 
 ### Output example: 
 
-[Demo request](https://pa11y-express.onrender.com/api/check?url=https%3A%2F%2Fwww.a11yproject.com%2F)
+[Demo request](https://pa11y-express.onrender.com/check?url=https%3A%2F%2Fwww.a11yproject.com%2F)
 
 ```json
 {

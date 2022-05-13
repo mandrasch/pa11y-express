@@ -10,9 +10,9 @@ app.use(bodyParser.urlencoded({ extended: true }));
 /**
  * GET /check endpoint
  */
-app.get("/api/check", async function (req, res) {
+app.get("/check", async function (req, res) {
 
-  console.log('GET /api/heck ...');
+  console.log('GET /check ...');
 
   // Check if url is submitted
   if (!req.query.url) {
@@ -55,14 +55,12 @@ const html = `
     <section>
       <h1>Hello from pa11y API endpoint!</h1>
 
-      <p>Use API via GET: <pre>${appUrl}/api/check?url=https%3A%2F%2Fwww.w3.org%2FWAI%2Fdemos%2Fbad%2Fbefore%2Fhome.html</pre></p>
+      <p>Use API via GET: <pre>${appUrl}/check?url=https%3A%2F%2Fwww.w3.org%2FWAI%2Fdemos%2Fbad%2Fbefore%2Fhome.html</pre></p>
 
-      <p><a href="${appUrl}/api/check?url=https%3A%2F%2Fwww.w3.org%2FWAI%2Fdemos%2Fbad%2Fbefore%2Fhome.html" target="_blank">Run example</a></p>
+      <p><a href="${appUrl}/check?url=https%3A%2F%2Fwww.w3.org%2FWAI%2Fdemos%2Fbad%2Fbefore%2Fhome.html" target="_blank">Run example</a></p>
 
-      <p>Source: <a href="https://github.com/mandrasch/pa11y-express">https://github.com/mandrasch/pa11y-express</a></p>
+      <p>README: <a href="https://github.com/mandrasch/pa11y-express">https://github.com/mandrasch/pa11y-express</a></p>
     </section>
   </body>
 </html>
 `
-
-module.exports = app;
