@@ -12,7 +12,7 @@ Forked via https://render.com/docs/deploy-node-express-app.
 ## API usage
 
 ```
-GET https://<render-service-name>.onrender.com/check?url=<url-for-check>
+GET /check?url=<url-for-check>
 ```
 
 ## Demo
