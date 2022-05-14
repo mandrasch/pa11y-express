@@ -62,8 +62,6 @@ _(Runs on free plan on render, can be offline if limit is reached)_
 
 ## Host on render.com
 
-## Host on render.com
-
 Just create a new WebService on [render.com](https://render.com) and configure the project as seen here:
 
 ![Screenshot render.com Select a Github Repository](/_gh_screenshots/screenshot_render_001.png)
