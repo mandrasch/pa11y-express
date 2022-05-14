@@ -15,12 +15,16 @@ GET /check?url=<url-for-check>
 
 ## Host on render.com
 
-Just create a new WebService on [render.com](https://render.com) and configure the project as seen here:
+Create a new WebService on [render.com](https://render.com) and configure the project as seen here:
 
+1. Select GitHub repository:
 ![Screenshot render.com Select a Github Repository](/_gh_screenshots/screenshot_render_001.png)
-![Screenshot render.com Configure build and start command](/_gh_screenshots/screenshot_render_002.png)
-![Screenshot render.com Dashboard of project with public url](/_gh_screenshots/screenshot_render_003.png)
 
+2. Configure build and start command:
+![Screenshot render.com Configure build and start command](/_gh_screenshots/screenshot_render_002.png)
+
+3. Done! Your project is deployed and has a public URL:
+![Screenshot render.com Dashboard of project with public url](/_gh_screenshots/screenshot_render_003.png)
 
 See https://render.com/docs/deploy-node-express-app for more information.
 
