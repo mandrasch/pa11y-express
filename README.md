@@ -2,11 +2,6 @@
 
 Setup your own [pa11y](https://pa11y.org/) JSON API endpoint via [Express server (NodeJS)](https://expressjs.com).
 
-Can be hosted as [render.com Web Service](https://render.com/docs/web-services), use following commands for setup:
-
-  * Build Command: `npm install`
-  * Start Command: `npm run start` (runs `node app.js`)
-
 ## API usage
 
 ```
@@ -14,6 +9,11 @@ GET /check?url=<url-for-check>
 ```
 
 ## Host on render.com
+
+Can be hosted as [render.com Web Service](https://render.com/docs/web-services), use following commands for setup:
+
+  * Build Command: `npm install`
+  * Start Command: `npm run start` (runs `node app.js`)
 
 Create a new WebService on [render.com](https://render.com) and configure the project as seen here:
 
