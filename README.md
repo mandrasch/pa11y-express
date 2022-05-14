@@ -13,6 +13,18 @@ Can be hosted as [render.com Web Service](https://render.com/docs/web-services),
 GET /check?url=<url-for-check>
 ```
 
+## Host on render.com
+
+Just create a new WebService on [render.com](https://render.com) and configure the project as seen here:
+
+![Screenshot render.com Select a Github Repository](/_gh_screenshots/screenshot_render_001.png)
+![Screenshot render.com Configure build and start command](/_gh_screenshots/screenshot_render_002.png)
+![Screenshot render.com Dashboard of project with public url](/_gh_screenshots/screenshot_render_003.png)
+
+
+See https://render.com/docs/deploy-node-express-app for more information.
+
+
 ## Demo
 
 ⚠️ This is just a demo instance on a free plan. Please setup your own API endpoint! ⚠️
@@ -57,14 +69,3 @@ _(Runs on free plan on render, can be offline if limit is reached)_
   ]
 }
 ```
-
-## Host on render.com
-
-Just create a new WebService on [render.com](https://render.com) and configure the project as seen here:
-
-![Screenshot render.com Select a Github Repository](/_gh_screenshots/screenshot_render_001.png)
-![Screenshot render.com Configure build and start command](/_gh_screenshots/screenshot_render_002.png)
-![Screenshot render.com Dashboard of project with public url](/_gh_screenshots/screenshot_render_003.png)
-
-
-See https://render.com/docs/deploy-node-express-app for more information.
