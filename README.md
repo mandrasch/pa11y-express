@@ -1,13 +1,11 @@
 # pa11y-express
 
-Setup your own [pa11y](https://pa11y.org/) API endpoint via NodeJS/[Express](https://expressjs.com).
+Setup your own [pa11y](https://pa11y.org/) JSON API endpoint via [Express server (NodeJS)](https://expressjs.com).
 
 Can be hosted as [render.com Web Service](https://render.com/docs/web-services), use following commands for setup:
 
   * Build Command: `npm install`
-  * Start Command: `node app.js`
-
-See https://render.com/docs/deploy-node-express-app for more information.
+  * Start Command: `npm run start` (runs `node app.js`)
 
 ## API usage
 
@@ -67,3 +65,6 @@ Just create a new WebService on [render.com](https://render.com) and configure t
 ![Screenshot render.com Select a Github Repository](/_gh_screenshots/screenshot_render_001.png)
 ![Screenshot render.com Configure build and start command](/_gh_screenshots/screenshot_render_002.png)
 ![Screenshot render.com Dashboard of project with public url](/_gh_screenshots/screenshot_render_003.png)
+
+
+See https://render.com/docs/deploy-node-express-app for more information.
