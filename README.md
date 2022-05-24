@@ -41,7 +41,7 @@ Use encodeURI() in JavaScript (or [urlencoder.io](https://www.urlencoder.io/)) t
 
 ### Response example (JSON)
 
-[Demo request](https://pa11y-express.onrender.com/check?url=https%3A%2F%2Fwww.a11yproject.com%2F)
+[Demo request](https://pa11y-express.onrender.com/check?url=https%3A%2F%2Fwww.w3.org%2FWAI%2Fdemos%2Fbad%2Fbefore%2Fhome.html)
 
 _(Runs on free plan on render, can be offline if limit is reached)_
 
